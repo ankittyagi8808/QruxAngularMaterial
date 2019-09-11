@@ -1,0 +1,63 @@
+
+
+  .mat-card{
+    border-radius: 16px;
+  }
+  .mat-card-container{
+    padding:45px 20px;
+  
+  }
+  
+  .twoCard{
+
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    display: flex;
+  }
+  .card1{
+    margin:.5rem;
+    flex:1;
+    flex-wrap: wrap;
+    flex-basis: 847px;
+}
+  
+  .card2{
+    display: flex;
+     margin:.5rem;
+     flex-wrap: wrap;
+     flex-basis: 260px;
+  }
+  
+  .card3{
+    margin:.5rem;
+    flex-wrap: wrap;
+    flex-basis: 260px;
+  }
+
+  
+.card{
+  border-radius: 16px;
+ 
+}
+.card c{ width:80%}
+   .card-columns{
+     margin: 20px 20px 20px 20px;
+     
+   }
+  .logoAlign{
+    margin-left:1030px;
+ }
+
+.userAlign{
+  width:54px;
+  height: 52px;
+  font-size: 47px;
+  margin-left:810px;
+}
+.userAlign1{
+  width:54px;
+  height: 52px;
+  font-size: 47px;
+  margin-left:10px;
+ 
+}

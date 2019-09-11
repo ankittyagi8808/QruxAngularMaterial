@@ -1,0 +1,76 @@
+<mat-sidenav-container fullscreen style="background-color: rgb(216, 216, 216)">
+
+    <mat-sidenav #sidenav  mode="side"  [ngStyle]="{ 'width.em': sidenavWidth }" opened="true" (mouseenter)="increase()"
+      (mouseleave)="decrease()">
+      
+      <mat-nav-list style="margin-top: 10%">
+        <mat-list-item routerLink="1" routerLinkActive="active" >
+          <mat-icon mat-list-icon>home</mat-icon>
+          <div fxFlex="10"></div>
+          <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+            <h5 class="lead">Home</h5>
+          </div>
+        </mat-list-item>
+  
+        <mat-list-item routerLink="2" routerLinkActive="active">
+          <mat-icon mat-list-icon>volume_up</mat-icon>
+          <div fxFlex="10"></div>
+          <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+            <h5 class="lead">Sound</h5>
+          </div>
+        </mat-list-item>
+  
+        <mat-list-item routerLink="3" routerLinkActive="active">
+          <mat-icon mat-list-icon>local_phone</mat-icon>
+          <div fxFlex="10"></div>
+          <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+            <h5 class="lead">Contact</h5>
+          </div>
+        </mat-list-item>
+  
+  
+  
+      </mat-nav-list>
+  
+    </mat-sidenav>
+    
+    <mat-sidenav-content>    
+        
+           
+            
+         
+        <mat-toolbar color="primary" flex ><mat-icon (click)="sidenav.toggle()" class="sidenav-menu">menu</mat-icon><img src="assets/logo.png">
+          <mat-icon color="accent" class="userAlign"> stars</mat-icon>APLOZ
+          <mat-icon color="accent" class="userAlign1"> add_alert</mat-icon>NOTIFICATIONS
+          </mat-toolbar>
+         
+          
+      <div class="mat-card-container">
+          <div class="twoCard">
+            <mat-card class ='card1'>
+              <h1> text content</h1>
+              <p>
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </mat-card>
+          <mat-card class='card2'>
+            <h1> text content</h1>
+            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            </p>
+          </mat-card>
+          <mat-card class='card3'>
+              <h1> text content</h1>
+              <p>
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              </p>
+          </mat-card>
+      </div>
+  </div>
+ 
+    </mat-sidenav-content>
+   
+  
+  
+  </mat-sidenav-container>
