@@ -20,6 +20,14 @@
     flex-wrap: wrap;
     flex-basis: 847px;
 }
+
+.card5{
+  margin:.5rem;
+  flex:1;
+  flex-wrap: wrap;
+  flex-basis: 847px;
+  height:400px;
+}
   
   .card2{
     display: flex;
